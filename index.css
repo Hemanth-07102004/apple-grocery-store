@@ -1,0 +1,103 @@
+body{
+    background-color:#10e37f ;
+    height: 100vh;
+}
+.product-photo{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 1%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.product-photo-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Delicious-apples{
+    padding-right: 20px;
+}
+.Delicious-apples > h1{
+    margin: 10px;
+    margin-left: 0;
+}
+.Delicious-apples > p{
+    margin: 0;
+}
+.price{
+    color: red;
+    font-size: larger;
+}
+.price-details span{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.main-photo{
+    background-color: #ade72f;
+    height: 350px;
+    width: 250px;
+    /* border-radius: 3%; */
+}
+.main-photo-sliced{
+    height: 300px;
+    width: 280px;
+}
+.main-green-apple-angles{
+    background-color: white;
+    width: 250px;
+    height: 90px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.green-apple-angles-border{
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+}
+.main-photo-container{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-580px);
+    border-radius: 90%;
+}
+.share-heart-fonts{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px;
+    gap: 160px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    transform: translate(590px,-210px);
+    border-radius: 8%;
+    box-shadow: 1px 1px 5px black;
+}
+
+.benefits{
+    font: 14px;
+}
+.benefits > li{
+    font-size: 15px;
+}
+
+.varieties  img{
+    height: 25px;
+    margin-left: 3px ;
+}
+.green-apple-border{
+    border: 1px solid grey;
+}
+
