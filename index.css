@@ -43,8 +43,8 @@ body{
     /* border-radius: 3%; */
 }
 .main-photo-sliced{
-    height: 300px;
-    width: 280px;
+    height: 260px;
+    width: 240px;
 }
 .main-green-apple-angles{
     background-color: white;
@@ -75,14 +75,14 @@ body{
 }
 .add-to-cart{
     height: 40px;
-    width: 140px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: red;
     color: white;
     transform: translate(590px,-210px);
-    border-radius: 8%;
+    border-radius: 10%;
     box-shadow: 1px 1px 5px black;
 }
 
@@ -101,3 +101,6 @@ body{
     border: 1px solid grey;
 }
 
+p{
+    color: #a6a6a6;
+}
